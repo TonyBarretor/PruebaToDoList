@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APP todolist</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- To expand compatibility to IE (Internet Explorer) -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+<!-- nothing happened -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <!-- nothing happened -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<!-- nothing happened -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Prompt:wght@400;600&display=swap"
+      rel="stylesheet"/>
+    <!-- To work "fas fa-plus-circle" -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+
+</head>
+
+<body>
+    <div class="container">
+
+        <!-- perfil -->
+        <div class="perfil">
+
+            <div id="fecha"></div>
+            <h1>Kepler Tech</h1>
+            <span>Ven y descubre la experiencia</span>
+            <img src="honey.jpg" alt="MyTestImage" />
+            
+        </div>
+        
+        <!-- new task -->
+        <div class="add-Task">
+
+            <input  id="input" type="text" placeholder="Cuanta miel quieres ctv?"/>
+            <i id="boton-enter" class="fas fa-plus-circle"></i>
+
+        </div>
+
+        <div class="section-task">
+            <h3>Estas son tus tareas pendientes</h3>
+            <ul id="lista">
+
+            </ul>
+
+
+        </div>
+
+    </div>
+    <script src="operation.js"></script>
+</body>
+
+</html>

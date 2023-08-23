@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* nothings happen */
+:root {
+    --blue-dark: #2a73c2;
+    --green: #06e6f7;
+
+}
+
+body{
+    background-color: #2a73c2;
+    height: 100vh;
+    /* font-family is to select the style of font(tipo de letra) */
+    font-family: "Arial", sans-serif; 
+}
+
+.container{
+    max-width: 80%;
+}
+
+img{
+    width: 100px;
+    border-radius: 50%;
+    transition: all;
+    animation-name: rotando;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+}
